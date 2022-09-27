@@ -1,10 +1,13 @@
 {
-  "name": "create-react-context",
+  "name": "@patched/create-react-context",
   "version": "0.3.0",
   "description": "Polyfill for the proposed React context API",
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/thejameskyle/create-react-context",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thejameskyle/create-react-context.git"
+  },
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "keywords": [
@@ -31,7 +34,7 @@
   },
   "peerDependencies": {
     "prop-types": "^15.0.0",
-    "react": "^0.14.0 || ^15.0.0 || ^16.0.0"
+    "react": ">=0.14.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
@@ -63,5 +66,12 @@
     "snapshotSerializers": [
       "enzyme-to-json/serializer"
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/thejameskyle/create-react-context/issues"
+  },
+  "homepage": "https://github.com/thejameskyle/create-react-context#readme",
+  "directories": {
+    "example": "examples"
   }
 }
